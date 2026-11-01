@@ -1,0 +1,6 @@
+interface:
+  display_name: Abhar Mastery promt extrem
+  short_description: Critical analysis & files
+  default_prompt: Optimize my instructions for the target AI while preserving my intent.
+policy:
+  allow_implicit_invocation: true

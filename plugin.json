@@ -1,0 +1,28 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "009ownedby@premiumportal.id",
+    "name": "Premium Portal"
+  },
+  "description": "Evidence-first prompt engineering, rigorous critical analysis, source verification, and MarkItDown-first file ingestion when a converter is connected.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [],
+        "category": "Productivity",
+        "defaultPrompt": [
+          "Optimize my instructions for the target AI while preserving my intent.",
+          "Review and repair this prompt without adding unsupported assumptions.",
+          "Adapt this prompt for ChatGPT, Codex, Claude, Gemini, or another specified AI tool."
+        ],
+        "developerName": "Premium Portal",
+        "displayName": "Abhar Mastery promt extrem",
+        "longDescription": "Abhar Mastery promt extrem combines advanced prompt engineering with evidence-led research, source appraisal, rigorous fact-checking, critical audits, red-team analysis, technical verification, standards-compliance reviews, and conditional MarkItDown-first file ingestion. For content-focused file reading it prefers Markdown extraction when a real MarkItDown converter is connected; when users explicitly require preserving visual style or layout, it prioritizes the original visual file. It never claims conversion or verification that did not occur.",
+        "shortDescription": "Critical analysis & files"
+      }
+    }
+  },
+  "license": "MIT",
+  "name": "prompt-master",
+  "version": "1.2.0"
+}
