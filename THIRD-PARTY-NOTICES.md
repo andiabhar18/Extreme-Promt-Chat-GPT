@@ -25,3 +25,15 @@ MIT License
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE
+
+
+## Humanizer
+
+This package includes the Humanizer skill, upstream version 3.1.0, by Siqi Chen (`blader/humanizer`).
+
+- Source: https://github.com/blader/humanizer
+- Copyright: Copyright (c) 2025 Siqi Chen
+- License: MIT
+- The upstream license is reproduced unchanged at `skills/humanizer/LICENSE`.
+- The original upstream skill file is preserved unchanged at `skills/humanizer/UPSTREAM-SKILL.md`.
+- The active ChatGPT skill keeps the upstream instruction body unchanged and adapts only its discovery description. ChatGPT/Codex integration metadata and Abhar-specific workflow instructions are maintained separately.

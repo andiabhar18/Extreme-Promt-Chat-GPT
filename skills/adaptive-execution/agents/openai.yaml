@@ -1,0 +1,9 @@
+interface:
+  display_name: "Adaptive Execution"
+  short_description: "Automatic heavy-task execution"
+  default_prompt: "For this heavy task, use Automatic Intelligence Execution by default: refine the brief, optimize prompts safely, validate every stage, and run a separate project-wide final audit. Switch to Controlled or Hybrid only if I ask."
+policy:
+  products:
+    - CHAT
+    - CODEX
+  allow_implicit_invocation: true

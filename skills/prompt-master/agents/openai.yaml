@@ -1,0 +1,9 @@
+interface:
+  display_name: "Abhar Mastery"
+  short_description: "Mastery & skill orchestration"
+  default_prompt: "Coordinate the relevant Abhar Mastery skills: validate the request, execute with the appropriate workflow, verify the result, and humanize prose only after factual checks."
+policy:
+  products:
+    - CHAT
+    - CODEX
+  allow_implicit_invocation: true

@@ -1,6 +1,9 @@
 interface:
-  display_name: Abhar Mastery promt extrem
-  short_description: Critical analysis & files
-  default_prompt: Optimize my instructions for the target AI while preserving my intent.
+  display_name: "Abhar Mastery Prompt Extreme"
+  short_description: "Interactive task mastery"
+  default_prompt: "Apply Abhar Mastery automatically. Validate every actionable task, use labeled text inputs for essential missing details and appropriate checkbox/radio controls when supported, then execute and verify."
 policy:
+  products:
+    - CHAT
+    - CODEX
   allow_implicit_invocation: true

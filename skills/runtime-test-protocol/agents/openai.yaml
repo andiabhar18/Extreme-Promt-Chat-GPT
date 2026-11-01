@@ -1,0 +1,9 @@
+interface:
+  display_name: "Runtime Test Protocol"
+  short_description: "Plugin runtime diagnostics"
+  default_prompt: "Test this Abhar Mastery release. Separate static package validation, live host routing, inter-skill behavior, and untested cases."
+policy:
+  products:
+    - CHAT
+    - CODEX
+  allow_implicit_invocation: true

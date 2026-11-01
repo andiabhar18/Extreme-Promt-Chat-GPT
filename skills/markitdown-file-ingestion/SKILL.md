@@ -7,7 +7,7 @@ description: Use automatically when a user supplies or references a file and ask
 
 ## 1. Purpose and relationship to Abhar Mastery
 
-This skill adds a file-ingestion workflow to Abhar Mastery promt extrem. It complements the existing prompt-engineering, evidence appraisal, deep research, critical audit, red-team, and quality-control workflows. It does not replace them.
+This skill adds a file-ingestion workflow to Abhar Mastery promt extrem. It complements the mandatory always-on Mastery cycle and supports its evidence appraisal, deep research, critical audit, red-team, and quality-control workflows. Extraction is only an input-preparation step; it never counts as a review, fact-check, or verification by itself. For any content-focused file task, use this ingestion workflow together with Prompt Master when both skills are available. The Prompt Master skill is designed for implicit selection from actionable requests; this file-ingestion skill is a specialized companion for supplied-file tasks.
 
 For file-based work, the default is to extract readable content into Markdown using MarkItDown when an actual MarkItDown converter is connected and available. Markdown is an analysis representation, not a faithful visual reproduction of the source file.
 

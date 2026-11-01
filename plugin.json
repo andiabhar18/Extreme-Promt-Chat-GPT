@@ -1,28 +1,81 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "prompt-master",
+  "version": "1.4.3",
+  "description": "Evidence-first task mastery with inter-skill orchestration, structured clarification controls, and automatic heavy-task execution.",
   "author": {
-    "email": "009ownedby@premiumportal.id",
-    "name": "Premium Portal"
+    "name": "Andi Abhar",
+    "email": "andiabharanakselayar@gmail.com"
   },
-  "description": "Evidence-first prompt engineering, rigorous critical analysis, source verification, and MarkItDown-first file ingestion when a converter is connected.",
+  "license": "MIT",
+  "keywords": [
+    "academic-review",
+    "adaptive-execution",
+    "automatic-execution",
+    "checkboxes",
+    "critical-analysis",
+    "data-validation",
+    "document-review",
+    "evidence-appraisal",
+    "fact-checking",
+    "humanizer",
+    "implicit-invocation",
+    "inter-skill-orchestration",
+    "interactive-forms",
+    "long-form-writing",
+    "natural-writing",
+    "project-checkpoints",
+    "project-wide-audit",
+    "prompt-capacity-optimization",
+    "prompt-engineering",
+    "prompt-validation",
+    "prose-editing",
+    "radio-controls",
+    "runtime-testing",
+    "skill-diagnostics",
+    "structured-clarification",
+    "style",
+    "task-mastery",
+    "text-inputs",
+    "verification"
+  ],
   "extensions": {
     "com.openai": {
       "interface": {
-        "capabilities": [],
+        "displayName": "Abhar Mastery Prompt Extreme",
+        "shortDescription": "Interactive task mastery",
+        "longDescription": "Abhar Mastery is an evidence-first task-mastery plugin with coordinated specialist skills. Prompt Master is the primary orchestrator; Prompt Validation checks actionable prompts, inputs, data, and outputs, and collects essential missing details through labeled text inputs and appropriate choice controls when the active host supports them. Compact forms group multiple independent required fields when useful. Checkboxes are for multi-select; radio buttons or single-select dropdowns are for mutually exclusive choices. The system checks conversation and supplied files before asking, minimizes personal-data collection, validates entered values against known rules, and resumes the task. If interactive controls are unavailable, it uses a plain-text fill-in template without claiming it is interactive. For genuinely Heavy tasks, Adaptive Execution defaults to Automatic Intelligence Execution; Controlled and Hybrid remain available on explicit request. Relevant file-ingestion, Evidence Standards, Critical Audit, and Humanizer workflows are coordinated in the correct order. Runtime Test Protocol separates static package checks, live host behavior, and directly observed invocation traces. Implicit invocation is enabled where supported, but host routing, account eligibility, product availability, safety controls, and tool access remain platform-controlled. This is a Skills-only package with no hosted backend, background worker, or persistent project database.",
+        "developerName": "Andi Abhar",
         "category": "Productivity",
-        "defaultPrompt": [
-          "Optimize my instructions for the target AI while preserving my intent.",
-          "Review and repair this prompt without adding unsupported assumptions.",
-          "Adapt this prompt for ChatGPT, Codex, Claude, Gemini, or another specified AI tool."
+        "capabilities": [
+          "Always-on task mastery and prompt expansion",
+          "Inter-skill orchestration with Prompt Master as coordinator",
+          "Per-prompt instruction and data validation",
+          "Automatic heavy-task execution by default",
+          "Explicit Controlled and Hybrid execution modes",
+          "Capacity-aware prompt optimization and staged delivery",
+          "Per-stage and project-wide quality audits",
+          "Evidence-led research and critical verification",
+          "Automatic prose humanization with fact preservation",
+          "Runtime and release diagnostic protocol",
+          "Structured clarification with labeled text inputs",
+          "Compact multi-field forms when useful",
+          "Checkboxes for multi-select and radio/select for single-choice",
+          "Field validation, data minimization, and plain-text fallback"
         ],
-        "developerName": "Premium Portal",
-        "displayName": "Abhar Mastery promt extrem",
-        "longDescription": "Abhar Mastery promt extrem combines advanced prompt engineering with evidence-led research, source appraisal, rigorous fact-checking, critical audits, red-team analysis, technical verification, standards-compliance reviews, and conditional MarkItDown-first file ingestion. For content-focused file reading it prefers Markdown extraction when a real MarkItDown converter is connected; when users explicitly require preserving visual style or layout, it prioritizes the original visual file. It never claims conversion or verification that did not occur.",
-        "shortDescription": "Critical analysis & files"
+        "defaultPrompt": [
+          "Apply Abhar Mastery: validate, coordinate skills, execute, verify, and refine prose.",
+          "If essential details are missing, use labeled text inputs and the right choice controls when supported.",
+          "For heavy work, use Automatic execution by default and validate every stage."
+        ],
+        "brandColor": "#0F172A",
+        "composerIcon": "./assets/abhar-mark.svg",
+        "logo": "./assets/abhar-mark.svg"
+      },
+      "onboardingSkill": "./skills/setup/SKILL.md",
+      "publication": {
+        "release_notes": "Version 1.4.3: added Structured Clarification UI Protocol. Essential exact details use labeled text inputs when supported; compact forms group multiple independent required fields; checkboxes support multi-select and radio/select controls enforce one-of-many choices. Added field validation, data minimization, plain-text fallback, and test coverage. Retains v1.4.2 orchestration and Automatic heavy-task default."
       }
     }
-  },
-  "license": "MIT",
-  "name": "prompt-master",
-  "version": "1.2.0"
+  }
 }

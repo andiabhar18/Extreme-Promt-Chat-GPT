@@ -1,0 +1,9 @@
+interface:
+  display_name: "Prompt Validation"
+  short_description: "Validation & smart input forms"
+  default_prompt: "Validate each request and its data. When essential exact details are missing, use labeled text inputs and appropriate checkbox/radio controls if supported; validate responses and resume the task."
+policy:
+  products:
+    - CHAT
+    - CODEX
+  allow_implicit_invocation: true

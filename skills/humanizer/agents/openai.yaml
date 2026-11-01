@@ -1,0 +1,9 @@
+interface:
+  display_name: "Humanizer"
+  short_description: "Natural prose, same facts"
+  default_prompt: "Apply Humanizer to this prose: preserve its facts, citations, meaning, and voice while removing formulaic AI-writing patterns."
+policy:
+  products:
+    - CHAT
+    - CODEX
+  allow_implicit_invocation: true
